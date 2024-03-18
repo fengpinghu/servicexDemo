@@ -1,0 +1,57 @@
+General:
+  ServiceXName: AF_uproot
+  OutputDirectory: /tmp/adf1
+  OutputFormat: root
+  WriteOutputDict: out_uproot
+  IgnoreServiceXCache: True
+  Transformer: uproot
+  
+Sample:
+  
+#   114 files 10979979928 bytes BNL LRZ
+  - Name: single_top_s_chan__nominal
+    RucioDID: user.ivukotic:user.ivukotic.single_top_s_chan__nominal
+    Tree: events
+    FuncADL: DEF_query
+    
+#   50 files 8996232521 BNL LRZ
+  - Name: single_top_tW__nominal
+    RucioDID: user.ivukotic:user.ivukotic.single_top_tW__nominal
+    Tree: events
+    FuncADL: DEF_query
+
+#   2506 files 392241762876 BNL LRZ
+  - Name: single_top_t_chan__nominal
+    RucioDID: user.ivukotic:user.ivukotic.single_top_t_chan__nominal
+    Tree: events
+    FuncADL: DEF_query
+    
+#   917 190788301485 BNL LRZ CERN
+  - Name: ttbar__scaleup 
+    RucioDID: user.ivukotic:user.ivukotic.ttbar__scaleup
+    Tree: events
+    FuncADL: DEF_query
+    
+#     # 443  100294540695 BNL LRZ
+  - Name: ttbar__PS_var
+    RucioDID: user.ivukotic:user.ivukotic.ttbar__PS_var
+    Tree: events
+    FuncADL: DEF_query
+    
+#     # 7066 1454632419273 BNL LRZ
+  - Name: ttbar__nominal
+    RucioDID: user.ivukotic:user.ivukotic.ttbar__nominal
+    Tree: events
+    FuncADL: DEF_query
+
+  - Name: wjets__nominal
+    RucioDID: user.ivukotic:user.ivukotic.wjets__nominal
+    Tree: events
+    FuncADL: DEF_query
+    
+    # totals 
+    # files: 21294
+    # 3057.25 GB
+    
+Definition:
+  DEF_query: "Select(lambda e: {'electron_e': e.electron_e/1019.2})"
