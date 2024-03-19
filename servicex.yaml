@@ -1,0 +1,37 @@
+api_endpoints:
+  - name: atlasr21
+    endpoint: https://servicex.af.uchicago.edu/
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY4MTk1MTM1MSwianRpIjoiMWEwYTk4OGMtMGUxOC00OTllLTgxZGQtMTBiNDc1MTlmNjI0IiwidHlwZSI6InJlZnJlc2giLCJzdWIiOiI2ZGMxNGQ4NC1iNDBiLTRlZDItOTY5Zi0yMjQxYzc0MDg2YWUiLCJuYmYiOjE2ODE5NTEzNTF9.sKFYhqFbuQqCOMduvjCorHt215-D1puXG9IRBMzKSGE
+    codegen: atlasr21
+    return_data: root-file
+  - name: atlasr22
+    endpoint: https://servicex.af.uchicago.edu/
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY4MTk1MTM1MSwianRpIjoiMWEwYTk4OGMtMGUxOC00OTllLTgxZGQtMTBiNDc1MTlmNjI0IiwidHlwZSI6InJlZnJlc2giLCJzdWIiOiI2ZGMxNGQ4NC1iNDBiLTRlZDItOTY5Zi0yMjQxYzc0MDg2YWUiLCJuYmYiOjE2ODE5NTEzNTF9.sKFYhqFbuQqCOMduvjCorHt215-D1puXG9IRBMzKSGE
+    codegen: atlasr22
+    return_data: root-file
+  - name: atlasxaod
+    endpoint: https://servicex.af.uchicago.edu/
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY4MTk1MTM1MSwianRpIjoiMWEwYTk4OGMtMGUxOC00OTllLTgxZGQtMTBiNDc1MTlmNjI0IiwidHlwZSI6InJlZnJlc2giLCJzdWIiOiI2ZGMxNGQ4NC1iNDBiLTRlZDItOTY5Zi0yMjQxYzc0MDg2YWUiLCJuYmYiOjE2ODE5NTEzNTF9.sKFYhqFbuQqCOMduvjCorHt215-D1puXG9IRBMzKSGE
+    codegen: atlasxaod
+    return_data: root-file
+  - name: cms
+    endpoint: https://servicex.af.uchicago.edu/
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY4MTk1MTM1MSwianRpIjoiMWEwYTk4OGMtMGUxOC00OTllLTgxZGQtMTBiNDc1MTlmNjI0IiwidHlwZSI6InJlZnJlc2giLCJzdWIiOiI2ZGMxNGQ4NC1iNDBiLTRlZDItOTY5Zi0yMjQxYzc0MDg2YWUiLCJuYmYiOjE2ODE5NTEzNTF9.sKFYhqFbuQqCOMduvjCorHt215-D1puXG9IRBMzKSGE
+    codegen: cms
+    return_data: root-file
+  - name: cmssw-5-3-32
+    endpoint: https://servicex.af.uchicago.edu/
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY4MTk1MTM1MSwianRpIjoiMWEwYTk4OGMtMGUxOC00OTllLTgxZGQtMTBiNDc1MTlmNjI0IiwidHlwZSI6InJlZnJlc2giLCJzdWIiOiI2ZGMxNGQ4NC1iNDBiLTRlZDItOTY5Zi0yMjQxYzc0MDg2YWUiLCJuYmYiOjE2ODE5NTEzNTF9.sKFYhqFbuQqCOMduvjCorHt215-D1puXG9IRBMzKSGE
+    codegen: cmssw-5-3-32
+    return_data: root-file
+  - name: python
+    endpoint: https://servicex.af.uchicago.edu/
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY4MTk1MTM1MSwianRpIjoiMWEwYTk4OGMtMGUxOC00OTllLTgxZGQtMTBiNDc1MTlmNjI0IiwidHlwZSI6InJlZnJlc2giLCJzdWIiOiI2ZGMxNGQ4NC1iNDBiLTRlZDItOTY5Zi0yMjQxYzc0MDg2YWUiLCJuYmYiOjE2ODE5NTEzNTF9.sKFYhqFbuQqCOMduvjCorHt215-D1puXG9IRBMzKSGE
+    codegen: python
+    return_data: root-file
+  - name: AF_uproot
+    endpoint: https://servicex.af.uchicago.edu/
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxMDc5Nzc4OCwianRpIjoiYjJmOTRjZDMtNmRiZC00OGRmLTk3Y2UtMjcxNGY3M2VlNTVmIiwidHlwZSI6InJlZnJlc2giLCJzdWIiOiI2ZGMxNGQ4NC1iNDBiLTRlZDItOTY5Zi0yMjQxYzc0MDg2YWUiLCJuYmYiOjE3MTA3OTc3ODgsImNzcmYiOiI3ZjJkYjYyZS05MjIzLTRjNDMtOTc1MC01NjUyNjIzMjg2NGYifQ.3FflcT0uutGJOrbIsc46NEygCYM31xLAZpICrTI9TdI
+    codegen: uproot
+    return_data: root-file
+

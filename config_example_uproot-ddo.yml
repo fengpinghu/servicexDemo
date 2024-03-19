@@ -1,9 +1,7 @@
 General:
   ServiceXName: AF_uproot
-  # ServiceXName: uproot-test1
   OutputDirectory: /tmp/adf1
-  # OutputFormat: root
-  OutputFormat: parquet
+  OutputFormat: root
   WriteOutputDict: out_uproot
   IgnoreServiceXCache: True
   Transformer: uproot
@@ -56,6 +54,4 @@ Sample:
     # 3057.25 GB
     
 Definition:
-  # DEF_query: "Select(lambda e: {'electron_e': e.electron_e/1019.2})"
-  DEF_query: "Select(lambda e: {'electron_e': e.electron_e/1019.2, 'electron_pt': e.electron_pt, 'electron_eta': e.electron_eta, 'electron_phi': e.electron_phi, 'muon_e': e.muon_e, 'jet_e': e.jet_e})"
-  
+  DEF_query: "Select(lambda e: {'electron_e': e.electron_e/1019.2})"
